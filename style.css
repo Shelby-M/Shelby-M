@@ -1,0 +1,11 @@
+h1 {text-align: center; color: white;
+    padding: 30px; 
+    background-color: grey;
+  }
+
+#main-bio{
+    float: left; }
+
+#bio-image{}
+#contact-info{float: right;}
+.h1{padding: 100;}
