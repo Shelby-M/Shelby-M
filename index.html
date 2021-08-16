@@ -1,42 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <head>
-    <meta charset="UTF-8" />
-    <title>HTML + CSS</title>
-
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Shelby M Portfolio</title>
   </head>
-
   <body>
-    <header>
-      <h1>Student Bio</h1>
+    <header class="header">
+      <h1>Shelby Moriarty</h1>
+      <nav>
+        <ul class="navBar">
+          <li><img src="./css/avatar.jpg" id="avatar"></li>
+          <li>
+            <a href="#About-Me">About Me</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="container">
-      <section id="main-bio">
-        <!-- TODO: Replace content with your own info -->
-        <h2>Shelby Moriarty</h2>
 
-        <img
-          id="bio-image"
-          src="https://placehold.it/200x200"
-          alt="Your Name"
-        />
+    <main class="main"></main>
+    <section id="About-Me">
+      <img src="http://placekitten.com/g/300/300" alt="About-Me" />
+      <h2>About Me</h2>
+      <p>Up and coming into coding, I have no idea what I am doing! Below are where my projectswill be showcased. I currently do not have any deployed applications, so there are placeholder images and links to portray how the projects will look.    </p>
+    </section>
 
-        <p>
-          Write a short paragraph or two about yourself, or use placeholder text
-          from <a href="http://www.lipsum.com/">www.lipsum.com</a>
-        </p>
-      </section>
+    <section id="Contact">
+      <img src="./css/Contact.png" alt="Contact" />
+      <h1>Contact</h1>
+      <p>My contact information is below:</p>
+        <h1><span>
+        <a href="https://www.linkedin.com/in/michelle-moriarty-56a970123/">Linkedin!</a>
+        </span></h1>
+        <h2><span><a href="mailto:shelbyfayemo@gmail.com">Email Me!</a>  </span></h2>
+        <h3><a href="tel:651-230-6936"> Click To Call Me!</a></h3>
+      </div>
+    </section>
 
-      <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul>
-          <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-          <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-          <li><strong>LinkedIn:</strong> <a href="#">coming soon</a></li>
-        </ul>
-      </section>
-    </div>
+   
+    <section class="Projects" id="projects">
+      
+    <div class="Projects-header"> <h4>Projects</h4></div> 
+    <h1>Project One Name</h1>
+    <a href="#">
+      <img src="css/seven.jpg" alt="First Box"
+      style="max-width: 500px; margin: 20px;"></a>
+      </div>
+
+
+      <div class="box">
+        <h1>Project Two Name</h1>
+        <a href="#">
+        <img src="css/one.jpg" alt="One"
+        style="max-width:300px; margin: 20px;"></a>
+      </div>
+
+
+      <div class="box">
+        <h1>Project Three Name</h1>
+        <a href="#">
+        <img src="css/two.jpg" alt="Two"
+        style="max-width:300px; margin: 20px;"></a>
+       
+        
+      </div>
+      <div class="box">
+        <h1>Project Four Name</h1>
+        <a href="#">
+        <img src=".//css/three.jpg" alt="Two"
+        style="max-width: 300px; margin: 20px;"></a>
+        
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h5>✨ A Shelby Moriarty Original✨</h5>
+    </footer>
   </body>
 </html>
