@@ -1,3 +1,12 @@
-Created a secure password generator. 
-Allows user to determine the length of the password and what characters can be used (uppercase, lowercase, numbers and special characters)
-Generates a random password to determined length using all 76 characters.
+CODE Quiz
+created an interactive five question code
+start button to begin a 30 second timer, removes start button and replaces it with a next button
+after each question selection the next button appears to move on
+once all questions are answered the timer ends
+
+Not completed yet :
+Show high scores
+initial input box / save button
+high scores saved to local storage
+
+![Code Quiz](./code-quiz-screenshot.png))
